@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hexo</title>
+    <link rel="stylesheet" href="Hexo.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo-bar">
+            <image class="logo"  src="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg">
+        </div>
+        <div class="top-nav-bar">
+            <a class="actions"  >Docs</a>
+            <a class="actions" >API</a>
+            <a class="actions" >News</a>
+            <a class="actions" >Plugins</a>
+            <a class="actions" >Themes</a>
+            <a class="actions" >About</a> 
+            <i class="fa fa-github-alt" aria-hidden="true" id="cat-icon"></i>
+            <div class="search-bar">
+                <i class="fa fa-search" id="search-icon" ></i>
+                <input class=" search" type="search" name="search" placeholder="Search..." />            
+            </div>
+        </div>
+        <div class="lang-bar" >
+            <i id="lang" class="fa fa-globe" aria-hidden="true"></i>
+            <div class="language"> 
+                <select class="lang-select">
+                    <option class="lan-sel">English</option>
+                    <option  class="lan-sel">正體中文</option>
+                    <option class="lan-sel" >简体中文</option>
+                    <option  class="lan-sel">Русский</option>
+                    <option  class="lan-sel">한국어</option>
+                    <option  class="lan-sel">Português (Brasil)</option>
+                    <option class="lan-sel">ภาษาไทย</option>
+                </select>
+            </div>
+        </div>
+        <div class="title-adj">
+            <h2 id="title">A fast, simple & powerful blog framework</h2>
+        </div>
+        <div class="banner">
+            <span class="banner-span">
+               npm install hexo-cli -g
+            </span>
+            <i  id="dire-icon" class="fa fa-arrow-right" aria-hidden="true"></i>
+        </div>
+        <div class="news">
+                <div class="intro-news-1">
+                    <time class="intro-news-time" datetime="2022-01-29T00:00:00.000Z">2022-01-29</time>
+                    <p class="intro-news-title">Official plugins hexo-renderer-marked 5.0.0 and hexo-renderer-markdown-it 6.0.0 released</p>
+                </div>
+                <div class="intro-news-2">
+                   <time class="intro-news-time" datetime="2022-01-03T00:00:00.000Z">2022-01-03</time>
+                   <p class="intro-news-title">Official plugins hexo-front-matter 3.0.0, hexo-server 3.0.0, hexo-renderer-less-4.0.0 released</p>
+                </div>
+                <div class="intro-news-3">
+                   <time class="intro-news-time" datetime="2021-12-26T00:00:00.000Z">2021-12-26</time>
+                   <p class="intro-news-title">Hexo 6.0.0 Released</p>
+               </div>
+                <div class="intro-news-4">
+                    <time class="intro-news-time"  datetime="2021-11-26T00:00:00.000Z">2021-11-26</time>
+                    <p class="intro-news-title">Official plugins hexo-renderer-ejs 2.0.0, hexo-generator-sitemap 2.2.0 released</p>
+                </div>
+
+        </div>
+    </div>
+    
+    
+    <div class="body">
+        <div class="blazing-fast">
+            <i  id="bolt"class="fa fa-bolt" aria-hidden="true"></i>
+            <h3 class="title">Blazing Fast</h3>
+            <br>
+            <p class="para1">Incredible generating speed powered by Node.js. Hundreds of files take only,<br> seconds to build.</p>
+
+        </div>
+        <div class="markdown-support">
+            <i id="pencil" class="fa fa-pencil" aria-hidden="true"></i>
+            <h3 class="title">Markdown Support</h3>
+            <br>
+            <p class="para2">All features of GitHub Flavored Markdown are supported, including most<br> plugins.</p>
+
+        </div>
+        <div class="one-comm-deplo">
+            <i  id="cloud-up" class="fa fa-cloud-upload" aria-hidden="true"></i>
+            <h3 class="title">One-Command-Deployment</h3>
+            <br>
+            <p class="para3">You only need one command to deploy your site to GitHub Pages, Heroku or<br> other platforms.</p>
+
+        </div>
+        <div class="plugins">
+            <i id="cog" class="fa fa-cog" aria-hidden="true"></i>
+            <h3 class="title">Plugins</h3>
+            <br>
+            <p class="para4">Features powerful APIs for limitless extensibility. Various plugins are<br> available to support most template engines (EJS, Pug, Nunjucks, and many<br> others). Easily integrate with existing NPM packages (Babel, PostCSS, Less/Sass, etc).</p>
+
+        </div>
+        <div class="code-list">
+                <p class="code">npm install hexo-cli -g</p>
+                <p class="code">hexo init blog</p>
+                <p class="code">cd blog</p>
+                <p class="code">npm install</p>
+                <p class="code">hexo server</p>   
+         </div>
+      
+        <div class="submit">
+            <button id="sub">Get started</button>
+        
+        </div>
+        <div class="footer">
+            <div class="themes">
+                <div class="img">
+
+                    <img id="image" src="image/landscape.png">
+                </div>
+                <div class="theme">
+                    <h1 class="heading">351 Themes</h1>
+                    <p class="para">Choose from a huge library of spectacular, feature-packed and customizable themes. Create your own using any compatible template engines.</p>
+                    <button class="explore">Explore themes</button>
+                </div>
+
+            </div>
+            <div class="last-bar">
+                <div class="doc">
+                   <p class="parag">© 2022 <strong> Hexo</strong> <br>
+                    Documentation licensed under <strong> CC BY 4.0.</strong> </p>
+                </div>
+                <div class="icon-side">
+                    <img id="imgg"src="https://www.netlify.com/img/global/badges/netlify-dark.svg">
+                    <i id="twitter"class="fa fa-twitter fa-2x" aria-hidden="true"></i>
+                    <i id="hexo"class="fa fa-github-alt fa-2x" aria-hidden="true" id="cat-icon"></i>
+                </div>
+
+            </div>
+        </div>
+
+    </div>  
+
+
+
+
+
+</body>
+
+</html>
